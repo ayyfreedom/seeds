@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Red Rose";
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+  background: transparent;
+  position: fixed;
+  z-index: 1000;
+}
+header .logo {
+  /* color: rgba(237, 177, 3, 1); */
+  color: #ec5811;
+  font-size: 40px;
+  font-weight: 700;
+}
+header .navbar a {
+  color: rgba(255, 255, 255, 1);
+  margin-left: 20px;
+}
+header span {
+  color: #fff;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .text {
+  width: 50%;
+  height: 100vh;
+  /* background-color: #023c22; */
+  background-color: #2d4c3a;
+  padding: 0 7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero .text h1 {
+  /* font-size: 64px; */
+  font-weight: 700;
+  /* line-height: 78.72px; */
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+.hero .text p {
+  /* color: rgba(255, 255, 255, 1); */
+  color: rgba(255, 255, 255, 1);
+  opacity: 80%;
+  font-weight: light;
+  line-height: 20.4px;
+  text-align: left;
+}
+.hero .text .give {
+  width: 231px;
+  height: 62px;
+  border: none;
+  /* background: rgba(219, 49, 49, 1); */
+  background: #ec5811;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.86px;
+  letter-spacing: 0.800000011920929px;
+  text-align: center;
+  cursor: pointer;
+}
+.hero .img {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 100vh;
+  padding-right: 7rem;
+  background: url(/assets/img/IMG_5142.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.services {
+  width: 100%;
+  height: 735px;
+  padding: 50px 6rem;
+  background-color: rgba(236, 88, 17, 0.9);
+  display: grid;
+  align-items: center;
+}
+.services h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+.services p {
+  text-align: center;
+  font-size: 13px;
+}
+.services .box {
+  text-align: center;
+  width: 16rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
+  height: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.services .blog {
+  display: flex;
+  /* align-items: flex-end; */
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+  /* background-color: beige; */
+}
+.imagebox1 {
+  background: url(/assets/img/rb_2149272282.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+.imagebox2 {
+  background: url(/assets/img/rb_2149850391.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+.imagebox3 {
+  background: url(/assets/img/undraw_Work_chat_re_qes4-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+.imagebox4 {
+  background: url(/assets/img/undraw_Gift_box_re_vau4-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+.campaigns {
+  width: 100%;
+  height: 500px;
+  padding: 0 6rem;
+    display: grid;
+  align-items: center;
+  background: #2d4c3a;
+}
+.campaigns button {
+width: 200px;
+height: 40px;
+background: #fff;
+border: none;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+
+}
+.campaigns h2 {
+  text-align: center;
+  font-size: 35px;
+text-transform: uppercase;
+color: #fff;
+}
+
+.campaigns .div1 {
+  display: grid;
+  place-items: center;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  border:1px solid rgba(255, 255, 255, 0.1);
+
+}
+.campaigns .campaign-box {
+  display: flex;
+  /* width: 200px; */
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  height: 400px;
+}
+.campaigns .bgbox {
+  width: 362px;
+  height: 283px;
+  left: 11px;
+  padding: 0px 39px 0px 39px;
+  border-radius: 20px;
+  /* background; */
+   background: url(/assets/img/coming-soon-3080102_1280-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+.footer p{
+color: #fff;
+font-size: 20px;
+}
